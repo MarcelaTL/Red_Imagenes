@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicSoft</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/validar.js"></script>
+
+</head>
+
+
+<body>
+        <img class="filtro3" src= "imagenes/logo1.png" height="90" >
+        <img class="usuario" src= "imagenes/usuario.png" width="50" height="50" align="right">
+
+    <table align="center" valign="middle">  
+        <tr>
+            <td width="30xp"></td>
+             <td>
+                <form >
+                    <br><br>
+                    <p class="parrafo"> Nombre de la imagen:</p> 
+                    <input class="nombre" type="text" name="nombre" id="nombre" width="500px" height="500px">                
+                    <br>
+                    <p class="parrafo"> Descripcción de la imagen:</p> 
+                    <textarea class="descripcion" type="text" name="descripcion" id="descripcion"></textarea>               
+                    <br><br><br>
+                    <input class="parrafo" type="file" id="archivo">
+                    <br><br>
+                    <p class="parrafo"> Nivel de privacidad:<br>
+                        <select class="seleccion" name="estado" id="estado">
+                            <option  ></option>
+                            <option  >Pública</option>
+                            <option >Privada</option>
+                          </select>
+                    </p>
+                    <br><br><br>
+
+                    <input class="enviar" style="margin:0px auto; display:block"   type="submit" name="ingresar" value="Ingresar" onclick="return validar_imagen()"> </a>  
+                    <br><br>
+                </form>
+                <div>  </div>
+            </td> 
+
+            <td  align="top" valign="middle">
+                <br><br>
+                <img src= "imagenes/logo1.png">
+                <br><br><br><br>
+                <b class="eslogan">Sube una imagen </b>
+                <p class="eslogan2"> Crea una experiencia</p> 
+                <br>
+            </td>
+            
+        </tr>           
+    </table>
+
+<br><br><br>
+    <a class="filtro3" href="index.html" ><img src= "imagenes/home2.png" height="40" width="40" align="right"></a>
+
+</body>
+</html>

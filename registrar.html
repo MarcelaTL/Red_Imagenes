@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicSoft</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/validar.js"></script>
+</head>
+
+<body>
+    <br><br><br>
+    <table align="center" valign="middle" >
+            
+        <tr>
+            <td align="center" valign="middle">
+                <img src= "imagenes/diseno.png" >
+                <br><br>
+                <a class="home" href="index.html"><img src= "imagenes/home2.png" height="40" width="40" ></a>
+            </td>
+
+            <td  align="center" valign="middle">
+                <br>
+                <img src= "imagenes/logo1.png">
+                <br>
+                <p class="parrafo">Registre sus datos a continuación:</p>
+
+                <form>
+                    <input class="cuadro_texto" type="text" name="nombre" id="nombre" placeholder="Nombre">                
+                    <br><br>
+                    <input class="cuadro_texto" type="text" name="usuario" id="usuario" placeholder="Usuario">                
+                    <br><br>
+                    <input class="cuadro_contraseña" type="password" name="contrasena" id="contrasena" placeholder="Contraseña"> <img src= "imagenes/visualizar.png" width=30px height=30px onmouseover="mostrar_contrasena()"; onmouseout="ocultar_contrasena();"> </a>
+                    <br><br>
+                    <input class="cuadro_texto" type="email" name="correo" id="correo" placeholder="Correo electronico"> </a>
+                    <br><br>
+                    <input class="enviar" type="submit" name="registrar" value="Registrarse" onclick="return validar_formulario()"> </a>
+                    <br><br>
+                </form>
+            </td>
+        </tr>                   
+    </table>
+</body>
+</html>

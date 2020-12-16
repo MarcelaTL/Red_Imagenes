@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicSoft</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/validar.js"></script>
+</head>
+
+
+<body>
+    <br><br><br><br><br>
+    <table align="center" valign="middle" >
+            
+        <tr>
+        
+            <td align="center" valign="middle">
+                <img src= "imagenes/diseno.png" >
+                <br><br>
+                <a class="home" href="index.html"><img src= "imagenes/home2.png" height="40" width="40" ></a>
+            </td>
+            <td  align="center" valign="middle">
+                <br>
+                <img src= "imagenes/logo1.png">
+                <br>
+                <p class="parrafo">Para recuperar su contraseña <br> ingrese los siguientes datos:</p>
+                <form method="POST">
+                    <input class="cuadro_texto" type="text" name="usuario" placeholder="Usuario" id="usuario">                
+                    <br><br>
+                    <input class="cuadro_texto" type="email" name="correo" placeholder="correo electronico" id="correo"> </a>
+                    <br><br><br>
+                    <input class="enviar"type="submit" name="enviar" value="Enviar" onclick="return validar_recucontrasena()"> 
+                    <br><br><br>
+                </form>
+
+            </td>
+        </tr>
+    
+    
+                        
+    </table>
+</body>
+</html>
