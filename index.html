@@ -2,45 +2,46 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 ">
     <title>PicSoft</title>
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/validar.js"></script>
 </head>
 
 <body>
+    
     <br>
-    <table align="center" valign="middle">
+    <table  align="center" valign="middle">
           
-        <tr >
-            <td>
-                <img src= "imagenes/diseno.png"  >   
+        <tr>
+            <td class="diseno1">
+                <img class="icono" src= "imagenes/diseno.png"  >   
             </td >
 
-            <td  align="center" >
-                <img src= "imagenes/logo1.png">
+            <td class="diseno2" align="center" >
+                <img class="logo2" src= "imagenes/logo1.png">
                 <br>
-               
                 <img class="usuario" src= "imagenes/usuario.png" width="50" height="50">
                 <br>
                 
                 <form method="POST">
                     <input class="cuadro_texto" type="text" name="usuario" placeholder="Usuario" id="usuario">                
-                    <br><br>
+                    <br>
                     <input class="cuadro_contraseña" type="password" name="contrasena" placeholder="Contraseña" id="contrasena"> <img src= "imagenes/visualizar.png" width=30px height=30px  onmouseover="mostrar_contrasena()"; onmouseout="ocultar_contrasena();"> </a>
                     <br><br>
                     <input class="enviar"type="submit" name="ingresar" value="Ingresar" onclick="return validar_ingreso()"> </a>
                     <br><br>
                     <a href="https://accounts.google.com/"><img src= "imagenes/google.png" height="40" width="40"></a>
                     <a href="https://www.facebook.com/"><img src= "imagenes/facebook.png" height="40" width="40"></a>
-                    <br><br><br><br>
+                    <br><br><br>
                     <a  href="registrar.html" ><input class="boton" type="button" value="Registrar" > </a>
                     <br><br>
                     <a href="recuperar_contraseña.html">He olvidado la contraseña</a>
-                    <br><br><br>
+                    <br><br>
                 </form>
             </td>
         </tr>                   
-    </table>
+        </table>
+
 </body>
 </html>
