@@ -3,7 +3,8 @@ body {
 	}
 table{
 	background-color: rgba(255,255,255,0.5); 
-	border-radius:25px 25px 25px 25px;
+  border-radius:25px 25px 25px 25px;
+  width:80% ;
 
 	}
 
@@ -11,13 +12,13 @@ table{
   .home{ align-content:space-between;}
   .home2{ align-items:top}
  
-  .parrafo{font-family:Arial, Helvetica, sans-serif}
+  .parrafo{font-family:Arial, Helvetica, sans-serif; width: 90%;}
   .eslogan{font-family:comic;font-size:10mm;font-style: italic;color:rgb(237, 239, 241)}
   .eslogan2{font-family:sans-serif;font-size:5mm;font-style:oblique;color:rgb(237, 239, 241)}
   .imge{border-radius:25px 25px 25px 25px;}
 
-  .descripcion{width: 500px;height:100px; border-radius:5px 5px 5px 5px;filter: opacity(75%);}
-  .nombre{width: 500px;height:30px; border-radius:5px 5px 5px 5px;filter: opacity(75%);}
+  .descripcion{width: 90%; height:100px; border-radius:5px 5px 5px 5px;filter: opacity(75%);}
+  .nombre{width: 90%; height:30px; border-radius:5px 5px 5px 5px;filter: opacity(75%);}
   
   .logo {filter: invert(0.5);}
   .usuario{filter: invert(0.7)}
@@ -26,17 +27,55 @@ table{
   .filtro3{filter: invert(0.9);}
 
 
-  .busqueda{width: 500px;height:20px; border-radius:5px 5px 5px 5px;filter: invert(0.3);}
-  .busqueda2{width: 800px;height:20px; border-radius:5px 5px 5px 5px;}   
-  .cuadro_texto{width: 300px;height:30px; border-radius:5px 5px 5px 5px;filter: opacity(75%);}
-  .cuadro_contraseña{width: 270px;height:30px;border-radius:5px 5px 5px 5px;filter: opacity(75%);}
+  .busqueda{width: 90%;height:20px; border-radius:5px 5px 5px 5px;filter: invert(0.3);}
+  .busqueda2{width: 90%;height:20px; border-radius:5px 5px 5px 5px;}   
+  .cuadro_texto{width:80%;height:30px; border-radius:5px 5px 5px 5px;filter: opacity(75%);}
+  .cuadro_contraseña{width: 70%;height:30px;border-radius:5px 5px 5px 5px;filter: opacity(75%);}
   .enviar{width: 150px;height:30px;border-radius:5px 5px 5px 5px; background-color:rgb(170, 174, 179);}
   .boton{width: 150px;height:30px;border-radius:5px 5px 5px 5px; background-color:rgb(170, 174, 179);}
   .seleccion{width: 150px;height:30px;border-radius:5px 5px 5px 5px; filter: opacity(75%);}
 
+/*-----------------Responsive--------------------*/
 
-	
+.diseno1 .icono{
+  width:80%;
+  height: auto;
+}
+
+.diseno2 .logo2{
+  width:90%;
+  height: auto;
+}
+
+
+.diseno1{
+  width:50%;
+  max-width: 2000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.diseno2{
+  width:50%;
+  max-width: 2000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 500px)
+{
+  .diseño2{width:100%}
+  .diseno1{display: none}
+  .foto{width:80%} 
+  div#imagenes{display: none;}
+   
+} 
+
+
+/*-------------Efectos de imagenes---------------*/
 @import "lesshat";
+
 
 .container{   
   width:200xp;
@@ -93,7 +132,6 @@ div#imagenes{
     width:17%;
     height: 700px;   
 }
-
 
 div#contenido{
     margin-right: 3%;
